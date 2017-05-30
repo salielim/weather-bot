@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Bot</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+  
+  
+</head>
+
+<body>
+    <div class="jumbotron">
+  <center>
+    <img src="http://icon-icons.com/icons2/487/PNG/512/mountains_mountain_snow_winter_c_47538.png" width="150">
+    <button type="button" class="btn btn-info btn-sm"  onclick="getWeatherCelsius()">°C</button>
+    <button type="button" class="btn btn-info btn-sm" onclick="getWeatherFahrenheit()">°F</button>
+    <h1><mark>Weather Bot</mark></h1>
+    <h2><span id="temp">Loading...</span></h2>
+    <h3><span id="weather">...</span><span id="icon">...</span></h3>
+    <br>
+    <p><mark>Current Location</mark>
+       <br>
+       <span id="location">...</span></p>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
